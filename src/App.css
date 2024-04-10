@@ -1,0 +1,54 @@
+.App {
+  background-color: black;
+  height: 630px;
+  color: white;
+}
+.Container{
+  display: flex;
+  justify-content: center;
+}
+.Profile{
+  color: white;
+  padding: 20px;
+  font-size: larger;
+  font-weight: 800;
+  /* position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: left;
+  font-size: 18px; */
+}
+.Hello {
+  padding: 150px;
+  font-weight: 900;
+  font-size: 30px;
+}
+.Details{
+  padding: 150px;
+}
+.Image{
+  border-radius: 50%;
+  padding: 100px;
+  height: 300px;
+  width: 300px;
+}
+.Button{
+  display: flex;
+  justify-content: space-between;
+  /* width: 320px; */
+  margin-top: 30px;
+}
+.Button1{
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: cadetblue;
+}
+.Button2{
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+}
+.underline{
+  text-decoration: none; 
+}

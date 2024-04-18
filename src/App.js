@@ -1,7 +1,6 @@
 import React from "react";
 import "./App.css";
-import resume from "../src/assets/resume.pdf"
-
+import resume from "../src/assets/resume.pdf" 
 const App = () => {
   return (
     <div className="App">
@@ -17,7 +16,6 @@ const App = () => {
               FrontEnd Developer
             </div>
             <a className="underline" href={resume} download="Pradeesha_Resume">
-            
               <div className="Button">
                 <button className="Button1">Download CV</button>
               </div>
